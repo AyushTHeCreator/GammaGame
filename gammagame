@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Game Portal</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #0d0d0d;
+            color: #0ff;
+            font-family: 'Orbitron', sans-serif;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding-top: 50px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            text-shadow: 0 0 20px #0ff;
+        }
+        .game-frame {
+            border: 5px solid #0ff;
+            border-radius: 15px;
+            box-shadow: 0 0 20px #0ff;
+            overflow: hidden;
+        }
+        .neon-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            color: #0ff;
+            border: 2px solid #0ff;
+            border-radius: 10px;
+            text-decoration: none;
+            text-shadow: 0 0 10px #0ff;
+            transition: 0.3s;
+        }
+        .neon-button:hover {
+            background: #0ff;
+            color: #0d0d0d;
+            box-shadow: 0 0 20px #0ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Future of Gaming</h1>
+        <div class="game-frame">
+            <iframe title="Hiber3D Engine" src="https://hiberworld.com/embed/6YE0z3E3V?utm_source=link&utm_medium=share&utm_campaign=embed"
+  frameborder="0" allowfullscreen
+  style="width: 100%; aspect-ratio: 16 / 9;"
+  sandbox="allow-same-origin allow-scripts allow-popups allow-modals allow-forms allow-pointer-lock allow-top-navigation"
+  tabindex="0"/>
+        </div>
+        <a href="https://hiberworld.com" target="_blank" class="neon-button">Explore More Games</a>
+    </div>
+</body>
+</html>
